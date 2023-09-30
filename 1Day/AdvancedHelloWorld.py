@@ -14,8 +14,10 @@ def While(Dict, letters, phrase):
     while None in phrase:
         randInt = getRandInd(lenArr=len(letters))
         Ind, letter = CreatePhrase(Dict, letters, randInt)
+
         if not Ind and not letter:
             continue
+
         if isinstance(Ind, list):
             for i in Ind:
                 phrase[i] = letter
