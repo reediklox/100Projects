@@ -5,7 +5,7 @@ import time
 
 
 def restart(Rand: int):
-    if not Rand:
+    if Rand == 1:
         print("Just kidding, you'r lucky! :D")
         return 0
     if platform.system() == "Windows":
