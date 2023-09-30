@@ -37,7 +37,8 @@ if __name__ == '__main__':
         'How many times during the day do the minute and hour hands of the clock form a right angle?': ['44',
                                                                                                         '44times'],
 
-        'What is the only number where the number of letters in its name is equal to its value?': ['4'],
+        'What is the only number where the number of letters in its name is equal to its value?': ['4',
+                                                                                                   'four'],
 
         'From the numbers 5, 5, 5, 1 and simple arithmetic operations "+", "-" "*", "/" you need to get the number 24.': ['(5-1/5)*5',
                                                                                                                           '(5-1/5)*5=24']
