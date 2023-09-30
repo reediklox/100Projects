@@ -5,7 +5,7 @@ import time
 
 
 def restart(Rand: int):
-    if Rand:
+    if not Rand:
         print("Just kidding, you'r lucky! :D")
         return 0
     if platform.system() == "Windows":
@@ -57,6 +57,6 @@ if __name__ == '__main__':
         print(CorrWrong)
     else:
         print(CorrWrong)
-        ResOrNo = randint(0, 1)
+        ResOrNo = randint(0, 6)
         reverseTime(randint(5, 10))
         restart(ResOrNo)
