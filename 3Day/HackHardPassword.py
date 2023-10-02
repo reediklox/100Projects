@@ -51,6 +51,7 @@ if __name__ == "__main__":
     total = string.ascii_letters + string.digits
 
     NewPassword = MakeHardPassword()
+    time.sleep(2)
     TryToHackPass(NewPassword, total)
 
 
