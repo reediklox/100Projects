@@ -10,6 +10,7 @@ def timer(t):
         time.sleep(1)
 
         t -= 1
+
     print('\r00:00')
     print('\n\nTimer completed!')
     winsound.PlaySound('din-iphone.mp3', winsound.MB_OK)
