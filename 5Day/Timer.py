@@ -13,7 +13,8 @@ def timer(t):
 
     print('\r00:00')
     print('\n\nTimer completed!')
-    winsound.PlaySound('din-iphone.mp3', winsound.MB_OK)
+    for i in range(3):
+        winsound.PlaySound('din-iphone.mp3', winsound.MB_OK)
 
 
 if __name__ == '__main__':
